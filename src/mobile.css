@@ -1,0 +1,26 @@
+@media only screen and (max-width: 430px) {
+  .links-con {
+    grid-template-columns: 370px;
+  }
+
+  .link-con-c {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .links-con {
+    grid-template-columns: 330px;
+  }
+  .link-con-c {
+    gap: 80px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .links-con {
+    grid-template-columns: 330px;
+  }
+  .link-con-c {
+    gap: 80px;
+  }
+}

@@ -1,5 +1,6 @@
 // import Links from './links' 
-import './style.css' 
+import './style.css'
+import './mobile.css' 
 import DevImg from './images/dev.jpeg'
 import linkIcon from './images/linkIcon.png'
 import Dev from './dev' 
