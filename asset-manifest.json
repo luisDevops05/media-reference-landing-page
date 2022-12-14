@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/media-reference-landing-page/static/css/main.4124c927.css",
+    "main.js": "/media-reference-landing-page/static/js/main.f4fda73d.js",
+    "index.html": "/media-reference-landing-page/index.html",
+    "main.4124c927.css.map": "/media-reference-landing-page/static/css/main.4124c927.css.map",
+    "main.f4fda73d.js.map": "/media-reference-landing-page/static/js/main.f4fda73d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4124c927.css",
+    "static/js/main.f4fda73d.js"
+  ]
+}
