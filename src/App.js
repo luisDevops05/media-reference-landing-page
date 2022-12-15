@@ -4,9 +4,9 @@ import './mobile.css'
 import DevImg from './images/dev.jpeg'
 import linkIcon from './images/linkIcon.png'
 import Dev from './dev' 
-import Link from './link'
-
+import Link from './links'
 function App(){
+    
     return(
         <div>
          <header>
