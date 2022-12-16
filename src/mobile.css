@@ -3,24 +3,27 @@
     grid-template-columns: 370px;
   }
 
-  .link-con-c {
-    gap: 100px;
+  .link {
+    gap: 110px;
+  }
+
+  .devImg {
+    height: 120px;
+    width: 120px;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .links-con {
     grid-template-columns: 330px;
   }
-  .link-con-c {
-    gap: 80px;
+  .link {
+    gap: 70px;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .links-con {
     grid-template-columns: 290px;
-  }
-  .link-con-c {
-    gap: 80px;
   }
 }

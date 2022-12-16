@@ -49,23 +49,22 @@ body {
   /* border: solid rgb(250, 17, 17) 1px; */
   border-radius: 10px;
   background-color: #ffffff77;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 200px;
+  border: none;
+}
+
+.icons {
+  margin-left: 20px;
+  color: white;
 }
 
 h1 {
   color: white;
-}
-
-.link-con-c {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 180px;
-  align-items: center;
-}
-
-#icon {
-  height: 50px;
-  border-radius: 50%;
 }
 
 #linkStyle {
