@@ -5,6 +5,12 @@ import DevImg from './images/dev.jpeg'
 import linkIcon from './images/linkIcon.png'
 import Dev from './dev' 
 import Link from './links'
+import {FaRegUser} from "react-icons/fa";
+
+import {FaGithub} from 'react-icons/fa'
+import {FaSpotify} from 'react-icons/fa'
+import {FaDollarSign} from 'react-icons/fa'
+
 function App(){
     
     return(
@@ -19,10 +25,10 @@ function App(){
         <section id='links'>
             <div className='links-main-con'>
                 <div className='links-con'>
-                    <div className='link one'><Link icon={linkIcon} info='My Portfolio'></Link></div>
-                    <div className='link two'><Link icon={linkIcon} info='Busoness Blog'></Link ></div>
-                    <div className='link three'><Link icon={linkIcon} info='Forbes Interview'></Link ></div>
-                    <div className='link four'><Link icon={linkIcon} info='Stocks'></Link ></div>
+                    <div className='link one'> <FaRegUser className='icons'></FaRegUser><Link info='My Portfolio'></Link></div>
+                    <div className='link two'> <FaGithub className='icons'></FaGithub> <Link info='GitHub'></Link ></div>
+                    <div className='link three'> <FaSpotify className='icons'></FaSpotify> <Link info='PodCast List'></Link ></div>
+                    <div className='link four'><FaDollarSign className='icons'></FaDollarSign><Link info='Business'></Link ></div>
 
                 </div>
             </div>
