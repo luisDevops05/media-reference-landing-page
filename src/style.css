@@ -71,3 +71,18 @@ h1 {
   text-decoration: none;
   color: #000000;
 }
+
+.bottom-links-con {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.bIcons {
+  color: white;
+}
+
+.bottom-main-con {
+  padding-bottom: 100px;
+}
